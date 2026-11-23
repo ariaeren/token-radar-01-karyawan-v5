@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Token Radar — pre-token launch board</title>
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<div class="app" id="app">
+  <header class="masthead">
+    <div class="brand"><span class="beacon" aria-hidden="true"></span><span>KARYAWAN <b>/</b> TOKEN RADAR</span></div>
+    <div class="masthead-right">
+      <span id="snapshot-stamp" class="stamp"></span>
+      <span class="version">V5 · DERIVED MODEL</span>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-copy">
+      <p class="eyebrow">PRE-TOKEN INTELLIGENCE · DEFILLAMA SNAPSHOT</p>
+      <h1>Find the launch <em>before the token.</em></h1>
+      <p id="hero-lede" class="lede"></p>
+    </div>
+    <div id="kpis" class="kpis" aria-label="Radar key figures"></div>
+  </section>
+
+  <main id="view"></main>
+
+  <footer class="footer">
+    <span>Implied value is this radar's model output, not a DefiLlama figure or financial advice.</span>
+    <span id="footer-note"></span>
+  </footer>
+</div>
+<script src="../data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
